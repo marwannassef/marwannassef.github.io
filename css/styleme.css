@@ -1,5 +1,15 @@
-body
-{
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 	color: white;
 	background-color: darkgray;
 }
@@ -19,7 +29,13 @@ dt, strong
 	color: red;
 }
 
-.neighbors-class{
+.neighbors-class
+{
     font-family: sans-serif;
 }
 
+.profile-class
+{
+	border-radius: 50%;
+	width:200px;
+}
