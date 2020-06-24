@@ -14,7 +14,7 @@ a
 	color: darkblue;
 }
 
-strong
+dt, strong
 {
 	color: red;
 }
@@ -22,3 +22,4 @@ strong
 .neighbors-class{
     font-family: sans-serif;
 }
+
