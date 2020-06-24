@@ -1,0 +1,24 @@
+body
+{
+	color: white;
+	background-color: darkgray;
+}
+
+h1, h3
+{
+	color: green;
+}
+
+a
+{
+	color: darkblue;
+}
+
+strong
+{
+	color: red;
+}
+
+.neighbors-class{
+    font-family: sans-serif;
+}
