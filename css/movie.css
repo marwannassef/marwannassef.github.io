@@ -6,11 +6,11 @@ body{
     font-family: Verdana, Tahoma,sans-serif;
     margin: 0px;
     padding: 0px;
-    background-image:url("img/background.png") ;
+    background-image:url("../images/background.png") ;
 }
 .header{
     text-align: center;
-    background: url("img/bannerbg.png") repeat-x top center;
+    background: url("../images/bannerbg.png") repeat-x top center;
 }
 .movieName{
     text-align: center;
@@ -45,7 +45,7 @@ body{
     line-height: 83px;
     color: red;
     font-weight: bold;
-    background: url("img/rbg.png") repeat-x center top;
+    background: url("../images/rbg.png") repeat-x center top;
 
 }
 .review-title img{
