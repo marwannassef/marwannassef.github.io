@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>W2D4 Q2</title>
-        <meta charset="utf8">
-        <script src="js/test.js"></script>
-    </head>
-    <body>
-        <form id="myForm" method="POST" onsubmit="return VALIDATOR.validate()">
-            <input type="text" name="first" id="first" placeholder="First Name" /> <br />
-            <input type="text" name="last" id="last" placeholder="Last Name" /> <br />
-            <input type="submit" />
-        </form>
-    </body>
+
+<head>
+    <title>Quiz</title>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2">
+                <h2>Computers</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2">
+                <button type="button" class="btn btn-outline-dark" value="1">1</button>
+                <button type="button" class="btn btn-outline-dark" value="2">2</button>
+                <button type="button" class="btn btn-outline-dark" value="3">3</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <P>CPU Speed:</P>
+                <P>Ram amount:</P>
+                <P>Storage space:</P>
+                <P>Price:</P>
+            </div>
+            <div class="col-2">
+                <P id="cpu">click a button to load</P>
+                <P id="ram">click a button to load</P>
+                <P id="storage">click a button to load</P>
+                <P id="price">click a button to load</P>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
