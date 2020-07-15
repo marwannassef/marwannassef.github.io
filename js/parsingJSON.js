@@ -7,7 +7,6 @@ let urlPosts = "https://jsonplaceholder.typicode.com/posts";
 let urlComments = "https://jsonplaceholder.typicode.com/comments";
 
 function loadUserData(event) {
-    console.log($("#userId").val());
     $.ajax(urlInfo + $("#userId").val(), {
         crossDomain: true
     }).done(displayInfo)
@@ -21,7 +20,6 @@ function loadUserData(event) {
 }
 
 function displayInfo(response) {
-    console.log(response);
     $("#info").children().remove();
     generateUserComponent("id", response.id);
     generateUserComponent("name", response.name);
@@ -41,7 +39,6 @@ function generateUserComponent(key, value) {
 }
 
 function displayPosts(response) {
-    console.log(response);
     $("#posts > :not(h3)").remove();
     $("#comments").children().remove();
     let posts = [];
@@ -59,7 +56,6 @@ function displayPosts(response) {
 
 function displayComments(postId) {
     return function(){
-        console.log(postId);
         $("div").removeClass('post-background');
         $("#" + postId).addClass('post-background');
         $.ajax(urlComments, {
